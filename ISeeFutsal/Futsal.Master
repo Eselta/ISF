@@ -5,13 +5,30 @@
 <html>
 <head runat="server">
     <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <nav>
+                <div class="nav-wrapper indigo">
+                  <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="#">one thing</a></li>
+                    <li><a href="#">two thing</a></li>
+                    <li><a href="#">red thing</a></li>
+                    <li><a href="#">blue thing</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+
+                  </ul>
+                </div>
+              </nav>
+           
+            <asp:ContentPlaceHolder ID="body" runat="server">
             </asp:ContentPlaceHolder>
         </div>
     </form>
