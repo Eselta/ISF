@@ -16,15 +16,21 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <ul id="coachDropdown" class="dropdown-content">
+                <li><a href="#!">Hold</a></li>
+                <li><a href="#!"></a></li>
+            </ul>
             <nav>
                 <div class="nav-wrapper indigo">
-                  <ul id="nav-mobile" class="left hide-on-med-and-down">
-                    <li><a href="#">one thing</a></li>
-                    <li><a href="#">two thing</a></li>
-                    <li><a href="#">red thing</a></li>
-                    <li><a href="#">blue thing</a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a class="dropdown-button" href="#" data-activates="coachDropdown">Træner<i class="material-icons right">arrow_drop_down</i></a></li>
+                        <li><a href="#">two thing</a></li>
+                        <li><a href="#">red thing</a></li>
+                        <li><a href="#">blue thing</a></li>
+                    </ul>
+                    <ul class="right">
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Om os</a></li>
 
                   </ul>
                 </div>
