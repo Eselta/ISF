@@ -16,7 +16,7 @@
         <div>
             <nav>
                 <ul class="dropdown-content" id="dropdown1">
-                <li><a href="#!">Hold</a></li>
+                <li><a href="Hold.aspx">Hold</a></li>
                 <li><a href="#!">Sæson</a></li>
                 <li><a href="#!">Scounting</a></li>
             </ul>
