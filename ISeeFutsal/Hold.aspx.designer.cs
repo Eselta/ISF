@@ -11,7 +11,7 @@ namespace ISeeFutsal
 {
 
 
-    public partial class WebForm1
+    public partial class Hold
     {
     }
 }
