@@ -5,16 +5,22 @@
     <div class="container">
         <ul class="collection">
             <li class="collection-header center"><h4>Hold</h4></li>
-            <li class="collection-item avatar grey lighten-3">
-                <a href="#"><img src="/Billeder/bb-logo.jpg" alt="" class="circle">
+            <li class="collection-item avatar grey lighten-3 hoverable">
+                <a href="HoldData.aspx"><img src="/Billeder/bb-logo.jpg" alt="" class="circle">
                 <span class="title">Title</span>
                 <p>First Line <br>
                    Second Line
                 </p></a>
             </li>
-            <li class="collection-item"></li>
-            <li class="collection-item"></li>
-            <li class="collection-item"></li>
         </ul>
     </div>
+      <div class="fixed-action-btn">
+    <a class="btn-floating btn-large blue">
+      <i class="large material-icons">reorder</i>
+    </a>
+    <ul>
+      <li><a class="btn-floating"><i class="material-icons green">add</i>Tilføj hold</a></li>
+      <li><a class="btn-floating"><i class="material-icons red">delete</i>Fjern hold</a></li>
+    </ul>
+  </div>
 </asp:Content>
