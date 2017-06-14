@@ -73,6 +73,7 @@
     <Content Include="content\materialize\font\material-design-icons\Material-Design-Icons.svg" />
     <Content Include="Futsal.Master" />
     <Content Include="Hold.aspx" />
+    <Content Include="HoldData.aspx" />
     <Content Include="MainPage.aspx" />
     <Content Include="packages.config" />
     <Content Include="content\materialize\font\roboto\Roboto-Thin.woff2" />
@@ -132,6 +133,13 @@
     </Compile>
     <Compile Include="Hold.aspx.designer.cs">
       <DependentUpon>Hold.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HoldData.aspx.cs">
+      <DependentUpon>HoldData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HoldData.aspx.designer.cs">
+      <DependentUpon>HoldData.aspx</DependentUpon>
     </Compile>
     <Compile Include="MainPage.aspx.cs">
       <DependentUpon>MainPage.aspx</DependentUpon>
