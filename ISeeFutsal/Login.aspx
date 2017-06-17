@@ -23,8 +23,8 @@
             <tr>
                 <td>
                     <div class="center-align">
-                        <a class="waves-effect waves-light btn-large">Login</a>
-                        <a class="waves-effect waves-light btn-large">Opret</a>
+                        <button class="waves-effect waves-light btn-large">Login</button>
+                        <a class="waves-effect waves-light btn-large" href="opretBruger.aspx">Opret</a>
                     </div>
                 </td>
             </tr>

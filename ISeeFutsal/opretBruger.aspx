@@ -5,12 +5,12 @@
     <div class="container">
         <h4 class="center-align">Opret bruger</h4>
             <div class="row">
-                <div class="input-field col s12 m8 l4 offset-l2">
+                <div class="input-field col s12 m8 l4 offset-m2 offset-l2">
                     <input id="firstname" type="text" class="validate" />
                     <label for="firstname">Fornavn</label>
                 </div>
             
-                <div class="input-field col s12 m8 l4">
+                <div class="input-field col s12 m8 l4 offset-m2">
                     <input id="lastname" type="text" class="validate" />
                     <label for="lastname">Efternavn</label>
                 </div>
