@@ -4,5 +4,6 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
     <div class="container">
         <h4 class="center">Sæson oversigt</h4>
+        <div id="calendar"></div>
     </div>
 </asp:Content>

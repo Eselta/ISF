@@ -680,7 +680,10 @@ if ($) {
   }; // End dropdown plugin
 
   $(document).ready(function(){
-    $('.dropdown-button').dropdown();
+      $('.dropdown-button').dropdown();
+      $('#calendar').fullCalendar({
+          // put your options and callbacks here
+      })
   });
 }( jQuery ));
 ;(function($) {

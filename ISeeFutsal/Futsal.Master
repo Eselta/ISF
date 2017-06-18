@@ -5,9 +5,10 @@
 <html>
 <head runat="server">
     <title></title>
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link type="text/css" rel="stylesheet" href="/content/materialize/css/materialize.css"  media="screen,projection"/>
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="/content/materialize/css/materialize.css"  media="screen,projection"/>
+        <link rel='stylesheet' href='/content/fullcalendar.min.css' />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -17,15 +18,16 @@
             <nav>
                 <ul class="dropdown-content" id="dropdown1">
                 <li><a href="Hold.aspx">Hold</a></li>
-                <li><a href="#!">Sæson</a></li>
+                <li><a href="Season.aspx">Sæson</a></li>
                 <li><a href="#!">Scounting</a></li>
+                <li><a href="#">Analyser</a></li>
             </ul>
                 <div class="nav-wrapper grey darken-3">
                     <a href="MainPage.aspx" class="brand-logo center">I See Futsal</a>
                     <ul id="nav-mobile" class="left">
                         <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Træner<i class="material-icons right">arrow_drop_down</i></a></li>
-                        <li><a href="#">two thing</a></li>
-                        <li><a href="#">red thing</a></li>
+                        <li><a href="#">Analyse</a></li>
+                        <li><a href="#">Spillere</a></li>
                         <li><a href="#">blue thing</a></li>
                     </ul>
                     <ul class="right">
@@ -44,8 +46,12 @@
         
     <!-- JQuery load -->
     <script type="text/javascript" src="<%= ResolveUrl("~/Scripts/jquery-3.1.1.js") %>"></script>
+
     <!-- JavaScript Load -->
     <script type="text/javascript" src="<%= ResolveUrl("~/Scripts/materialize/materialize.js") %>"></script>
+    <script src='<%= ResolveUrl("~/Scripts/moment.min.js") %>'></script>
+    <script src='<%= ResolveUrl("~/Scripts/fullcalendar/fullcalendar.min.js") %>'></script>
+
 </html>
 <footer>
 
