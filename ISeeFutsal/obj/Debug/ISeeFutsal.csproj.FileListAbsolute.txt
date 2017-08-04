@@ -167,3 +167,4 @@ C:\Users\Mathias\Documents\Visual Studio 2017\Projects\ISeeFutsal\ISeeFutsal\obj
 C:\Users\Mathias\Documents\Visual Studio 2017\Projects\ISeeFutsal\ISeeFutsal\obj\Debug\ISeeFutsal.dll
 C:\Users\Mathias\Documents\Visual Studio 2017\Projects\ISeeFutsal\ISeeFutsal\obj\Debug\ISeeFutsal.pdb
 C:\Users\Mathias\Documents\Visual Studio 2017\Projects\ISeeFutsal\ISeeFutsal\bin\MySql.Data.dll
+C:\Users\Eselta\Documents\Visual Studio 2017\Projects\ISF\ISeeFutsal\bin\MySql.Data.dll

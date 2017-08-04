@@ -4,6 +4,6 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="body" runat="server">
     <div class="container center-align">
         <h3>Velkommen til Sesso solution</h3>
-        <img src="/Billeder/Full_size_white.jpg" alt="" class="responsive-img" />
+        <img src="\ISeeFutsal\Billeder\Full_size_white.jpg" alt="" class="responsive-img" />
     </div>
 </asp:Content>
