@@ -7,9 +7,8 @@
             <li class="collection-header center"><h4>Hold</h4></li>
             <li class="collection-item avatar grey lighten-3 hoverable">
                 <a href="HoldData.aspx"><img src="/Billeder/bb-logo.jpg" alt="" class="circle">
-                <span class="title">Title</span>
-                <p>First Line <br>
-                   Second Line
+                <span class="title">Brøndby IF futsal</span>
+                <p>Brøndby
                 </p></a>
             </li>
         </ul>

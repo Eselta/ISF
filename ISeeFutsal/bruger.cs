@@ -12,8 +12,9 @@ namespace ISeeFutsal
         public String _email { get; set; }
         public String _telefon { get; set; }
         public String _password { get; set; }
+        public 
 
-        public bruger(String first, String last, String email, String phone, String pass)
+        bruger(String first, String last, String email, String phone, String pass)
         {
             _fornavn = first;
             _efternavn = last;
@@ -21,6 +22,8 @@ namespace ISeeFutsal
             _telefon = phone;
             _password = pass;
         }
+
+
         
 
         
